@@ -20,11 +20,11 @@ const playfair = Playfair_Display({
 export const metadata: Metadata = {
   metadataBase: new URL("https://ttkhukuk.com"),
   title: {
-    default: "TTK Hukuk Bürosu | Av. Tarih Talha Kahraman | İstanbul Avukat",
+    default: "TTK Hukuk Bürosu | Av. Tahir Talha Kahraman | İstanbul Avukat",
     template: "%s | TTK Hukuk Bürosu",
   },
   description:
-    "TTK Hukuk Bürosu - Av. Tarih Talha Kahraman önderliğinde ceza, ticaret, aile ve iş hukuku alanlarında 15+ yıllık deneyimle profesyonel hukuki danışmanlık. İstanbul'da güvenilir avukatlık hizmeti.",
+    "TTK Hukuk Bürosu - Av. Tahir Talha Kahraman önderliğinde ceza, ticaret, aile ve iş hukuku alanlarında 15+ yıllık deneyimle profesyonel hukuki danışmanlık. İstanbul'da güvenilir avukatlık hizmeti.",
   keywords: [
     "istanbul avukat",
     "hukuk bürosu",
@@ -33,11 +33,11 @@ export const metadata: Metadata = {
     "ticaret hukuku",
     "iş hukuku avukatı",
     "TTK Hukuk",
-    "Tarih Talha Kahraman",
+    "Tahir Talha Kahraman",
     "avukatlık",
     "hukuki danışmanlık",
   ],
-  authors: [{ name: "Av. Tarih Talha Kahraman" }],
+  authors: [{ name: "Av. Tahir Talha Kahraman" }],
   creator: "TTK Hukuk Bürosu",
   publisher: "TTK Hukuk Bürosu",
   formatDetection: {
@@ -50,7 +50,7 @@ export const metadata: Metadata = {
     locale: "tr_TR",
     url: "https://ttkhukuk.com",
     siteName: "TTK Hukuk Bürosu",
-    title: "TTK Hukuk Bürosu | Av. Tarih Talha Kahraman",
+    title: "TTK Hukuk Bürosu | Av. Tahir Talha Kahraman",
     description:
       "15+ yıllık deneyimle ceza, ticaret, aile ve iş hukuku alanlarında profesyonel avukatlık hizmeti. Ücretsiz ön görüşme için hemen arayın.",
     images: [
@@ -64,7 +64,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "TTK Hukuk Bürosu | Av. Tarih Talha Kahraman",
+    title: "TTK Hukuk Bürosu | Av. Tahir Talha Kahraman",
     description:
       "15+ yıllık deneyimle profesyonel avukatlık hizmeti. Ücretsiz ön görüşme için hemen arayın.",
     images: ["/og-image.jpg"],
@@ -93,7 +93,7 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "LegalService",
   name: "TTK Hukuk Bürosu",
-  alternateName: "Av. Tarih Talha Kahraman Hukuk Bürosu",
+  alternateName: "Av. Tahir Talha Kahraman Hukuk Bürosu",
   description:
     "Ceza, ticaret, aile ve iş hukuku alanlarında profesyonel avukatlık ve hukuki danışmanlık hizmeti.",
   url: "https://ttkhukuk.com",
