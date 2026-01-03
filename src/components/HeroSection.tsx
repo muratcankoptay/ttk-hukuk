@@ -57,7 +57,7 @@ export default function HeroSection() {
 
             {/* Subheading */}
             <p className="text-lg text-white/70 mb-8 max-w-xl leading-relaxed">
-              Av. Tarih Talha Kahraman ve deneyimli ekibimiz ile hukuki süreçlerinizde 
+              Av. Tahir Talha Kahraman ve deneyimli ekibimiz ile hukuki süreçlerinizde 
               yanınızdayız. Ceza, ticaret, aile ve iş hukuku alanlarında uzman kadromuzla 
               haklarınızı koruyoruz.
             </p>

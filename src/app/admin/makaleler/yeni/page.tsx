@@ -58,7 +58,7 @@ export default function NewArticlePage() {
     coverImage: '',
     category: categories[0]?.name || '',
     tags: [],
-    author: 'Av. Tarih Talha Kahraman',
+    author: 'Av. Tahir Talha Kahraman',
     status: 'draft',
     seo: {
       metaTitle: '',

@@ -135,7 +135,7 @@ const jsonLd = {
   },
   founder: {
     "@type": "Person",
-    name: "Av. Tarih Talha Kahraman",
+    name: "Av. Tahir Talha Kahraman",
     jobTitle: "Kurucu Avukat",
   },
   aggregateRating: {

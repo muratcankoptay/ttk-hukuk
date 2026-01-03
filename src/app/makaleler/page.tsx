@@ -22,7 +22,7 @@ const articles = [
     category: 'Aile Hukuku',
     categorySlug: 'aile-hukuku',
     readTime: '8 dk',
-    author: 'Av. Tarih Talha Kahraman',
+    author: 'Av. Tahir Talha Kahraman',
     date: '15 Aralık 2025',
   },
   {
@@ -32,7 +32,7 @@ const articles = [
     category: 'İş Hukuku',
     categorySlug: 'is-hukuku',
     readTime: '6 dk',
-    author: 'Av. Tarih Talha Kahraman',
+    author: 'Av. Tahir Talha Kahraman',
     date: '10 Aralık 2025',
   },
   {
@@ -42,7 +42,7 @@ const articles = [
     category: 'Ticaret Hukuku',
     categorySlug: 'ticaret-hukuku',
     readTime: '12 dk',
-    author: 'Av. Tarih Talha Kahraman',
+    author: 'Av. Tahir Talha Kahraman',
     date: '5 Aralık 2025',
   },
   {
@@ -52,7 +52,7 @@ const articles = [
     category: 'İş Hukuku',
     categorySlug: 'is-hukuku',
     readTime: '7 dk',
-    author: 'Av. Tarih Talha Kahraman',
+    author: 'Av. Tahir Talha Kahraman',
     date: '1 Aralık 2025',
   },
   {
@@ -62,7 +62,7 @@ const articles = [
     category: 'Ceza Hukuku',
     categorySlug: 'ceza-hukuku',
     readTime: '9 dk',
-    author: 'Av. Tarih Talha Kahraman',
+    author: 'Av. Tahir Talha Kahraman',
     date: '25 Kasım 2025',
   },
   {
@@ -72,7 +72,7 @@ const articles = [
     category: 'Gayrimenkul Hukuku',
     categorySlug: 'gayrimenkul-hukuku',
     readTime: '10 dk',
-    author: 'Av. Tarih Talha Kahraman',
+    author: 'Av. Tahir Talha Kahraman',
     date: '20 Kasım 2025',
   },
 ];

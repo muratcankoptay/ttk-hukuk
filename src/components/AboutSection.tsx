@@ -33,7 +33,7 @@ export default function AboutSection() {
                     <div className="w-32 h-32 mx-auto mb-6 bg-gradient-to-br from-[#d4af37] to-[#f0d77a] rounded-full flex items-center justify-center">
                       <Scale className="w-16 h-16 text-[#0a1628]" />
                     </div>
-                    <p className="text-white/60 text-sm">Av. Tarih Talha Kahraman</p>
+                    <p className="text-white/60 text-sm">Av. Tahir Talha Kahraman</p>
                     <p className="text-[#d4af37] text-xs tracking-widest uppercase mt-1">Kurucu Ortak</p>
                   </div>
                 </div>
@@ -84,7 +84,7 @@ export default function AboutSection() {
             <div className="divider-gold"></div>
 
             <p className="text-[#0a1628]/70 mb-6 leading-relaxed">
-              Av. Tarih Talha Kahraman tarafından kurulan TTK Hukuk Bürosu, 15 yılı aşkın 
+              Av. Tahir Talha Kahraman tarafından kurulan TTK Hukuk Bürosu, 15 yılı aşkın 
               tecrübesiyle müvekkillerine en yüksek standartlarda hukuki danışmanlık ve 
               avukatlık hizmeti sunmaktadır.
             </p>

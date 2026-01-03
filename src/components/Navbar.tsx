@@ -97,7 +97,7 @@ export default function Navbar() {
                   TTK HUKUK
                 </span>
                 <span className="text-[10px] text-[#d4af37] font-medium tracking-[0.2em] uppercase">
-                  Av. Tarih Talha Kahraman
+                  Av. Tahir Talha Kahraman
                 </span>
               </div>
             </Link>

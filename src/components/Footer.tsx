@@ -75,7 +75,7 @@ export default function Footer() {
               </div>
             </Link>
             <p className="text-white/60 mb-6 leading-relaxed">
-              Av. Tarih Talha Kahraman önderliğinde, müvekkillerimize en yüksek standartlarda hukuki danışmanlık ve avukatlık hizmeti sunuyoruz.
+              Av. Tahir Talha Kahraman önderliğinde, müvekkillerimize en yüksek standartlarda hukuki danışmanlık ve avukatlık hizmeti sunuyoruz.
             </p>
             <div className="flex gap-4">
               {[Facebook, Twitter, Linkedin, Instagram].map((Icon, index) => (

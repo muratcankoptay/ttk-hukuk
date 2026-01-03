@@ -2,10 +2,10 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Hakkımızda',
-  description: 'TTK Hukuk Bürosu - Av. Tarih Talha Kahraman hakkında bilgi edinin. 15+ yıllık deneyim ve güvenilir hukuki danışmanlık.',
+  description: 'TTK Hukuk Bürosu - Av. Tahir Talha Kahraman hakkında bilgi edinin. 15+ yıllık deneyim ve güvenilir hukuki danışmanlık.',
   openGraph: {
     title: 'Hakkımızda | TTK Hukuk Bürosu',
-    description: 'Av. Tarih Talha Kahraman ve TTK Hukuk ekibi hakkında detaylı bilgi.',
+    description: 'Av. Tahir Talha Kahraman ve TTK Hukuk ekibi hakkında detaylı bilgi.',
   },
 };
 

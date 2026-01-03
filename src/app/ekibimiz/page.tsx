@@ -319,7 +319,7 @@ export default function EkibimizPage() {
             &ldquo;Hukuk, toplumun temel taşıdır. Biz bu taşı her müvekkilimiz için 
             sağlam tutmak için buradayız.&rdquo;
           </blockquote>
-          <cite className="text-[#d4af37]">— Av. Tarih Talha Kahraman</cite>
+          <cite className="text-[#d4af37]">— Av. Tahir Talha Kahraman</cite>
         </div>
       </section>
 

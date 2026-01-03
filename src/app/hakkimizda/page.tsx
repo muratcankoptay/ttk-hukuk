@@ -93,7 +93,7 @@ export default function HakkimizdaPage() {
                         <Scale className="w-16 h-16 text-[#0a1628]" />
                       </div>
                       <h3 className="text-white text-2xl font-bold mb-2" style={{ fontFamily: 'Playfair Display, serif' }}>
-                        Av. Tarih Talha Kahraman
+                        Av. Tahir Talha Kahraman
                       </h3>
                       <p className="text-[#d4af37]">Kurucu Ortak</p>
                       <div className="mt-6 space-y-2 text-white/60 text-sm">
@@ -136,7 +136,7 @@ export default function HakkimizdaPage() {
               
               <div className="space-y-6 text-[#0a1628]/70 mt-6">
                 <p>
-                  TTK Hukuk Bürosu, Av. Tarih Talha Kahraman tarafından 2016 yılında 
+                  TTK Hukuk Bürosu, Av. Tahir Talha Kahraman tarafından 2016 yılında 
                   İstanbul&apos;da kurulmuştur. Büromuz, kuruluşundan bu yana müvekkillerine 
                   ceza hukuku, ticaret hukuku, aile hukuku ve iş hukuku başta olmak 
                   üzere pek çok alanda kapsamlı hukuki hizmet sunmaktadır.
