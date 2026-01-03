@@ -16,17 +16,18 @@ import {
 
 const team = [
   {
-    name: 'Av. Tarih Talha Kahraman',
+    name: 'Av. Tahir Talha Kahraman',
     role: 'Kurucu Ortak',
     title: 'Ağır Ceza & Ticaret Hukuku Uzmanı',
-    bio: '15 yılı aşkın deneyimiyle ceza ve ticaret hukuku alanında uzmanlaşmış olan Av. Tarih Talha Kahraman, TTK Hukuk Bürosu\'nun kurucusudur. İstanbul Üniversitesi Hukuk Fakültesi mezunudur.',
+    image: '/team/tahir-kahraman.png',
+    bio: '15 yılı aşkın deneyimiyle ceza ve ticaret hukuku alanında uzmanlaşmış olan Av. Tahir Talha Kahraman, TTK Hukuk Bürosu\'nun kurucusudur. İstanbul Üniversitesi Hukuk Fakültesi mezunudur.',
     education: [
       'İstanbul Üniversitesi Hukuk Fakültesi (2006-2010)',
       'Ceza Hukuku Yüksek Lisans (2012-2014)',
     ],
     expertise: ['Ağır Ceza Davaları', 'Ticari Uyuşmazlıklar', 'Şirket Hukuku', 'İcra & İflas'],
     experience: '15+ Yıl',
-    email: 'tarih.kahraman@ttkhukuk.com',
+    email: 'tahir.kahraman@ttkhukuk.com',
     linkedin: '#',
     featured: true,
   },
@@ -199,17 +200,25 @@ export default function EkibimizPage() {
               {/* Image */}
               <div className="relative">
                 <div className="aspect-[4/5] bg-gradient-to-br from-[#0a1628] to-[#1a2744] rounded-2xl overflow-hidden shadow-2xl">
-                  <div className="w-full h-full flex items-center justify-center">
-                    <div className="text-center p-8">
-                      <div className="w-40 h-40 mx-auto mb-6 bg-gradient-to-br from-[#d4af37] to-[#f0d77a] rounded-full flex items-center justify-center">
-                        <Scale className="w-20 h-20 text-[#0a1628]" />
+                  {member.image ? (
+                    <img 
+                      src={member.image} 
+                      alt={member.name}
+                      className="w-full h-full object-cover object-center"
+                    />
+                  ) : (
+                    <div className="w-full h-full flex items-center justify-center">
+                      <div className="text-center p-8">
+                        <div className="w-40 h-40 mx-auto mb-6 bg-gradient-to-br from-[#d4af37] to-[#f0d77a] rounded-full flex items-center justify-center">
+                          <Scale className="w-20 h-20 text-[#0a1628]" />
+                        </div>
+                        <h3 className="text-white text-2xl font-bold mb-2" style={{ fontFamily: 'Playfair Display, serif' }}>
+                          {member.name}
+                        </h3>
+                        <p className="text-[#d4af37]">{member.role}</p>
                       </div>
-                      <h3 className="text-white text-2xl font-bold mb-2" style={{ fontFamily: 'Playfair Display, serif' }}>
-                        {member.name}
-                      </h3>
-                      <p className="text-[#d4af37]">{member.role}</p>
                     </div>
-                  </div>
+                  )}
                 </div>
                 
                 {/* Stats Card */}
