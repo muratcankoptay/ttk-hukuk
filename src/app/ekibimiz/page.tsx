@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion';
 import Link from 'next/link';
+import Image from 'next/image';
 import { 
   Scale, 
   Award, 
@@ -201,10 +202,12 @@ export default function EkibimizPage() {
               <div className="relative">
                 <div className="aspect-[4/5] bg-gradient-to-br from-[#0a1628] to-[#1a2744] rounded-2xl overflow-hidden shadow-2xl">
                   {member.image ? (
-                    <img 
+                    <Image 
                       src={member.image} 
                       alt={member.name}
-                      className="w-full h-full object-cover object-center"
+                      fill
+                      className="object-cover object-top"
+                      priority
                     />
                   ) : (
                     <div className="w-full h-full flex items-center justify-center">
